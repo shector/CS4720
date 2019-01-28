@@ -20,7 +20,8 @@ request(APP.alternateUrl, options, (err, res, body) => {
 /** We use the promise API to avoid the pyramid of doom. This is where we stack aync calls with a bunch of gross gross nesting 
  *  Promise is an object with two parameters with a resolve and reject function pointers. Resolve is called when it works, reject when it doesn't. 
  *  Promises have two properties a state which tells us whether its running (pending) or has completed sucesfully(fulfilled) or failed (rejected)
- *  and a result which is either a value or an error which is user defined. 
+ *  and a result which is either a value or an error which is user defined. We basically use a promise to say hey i want something but it'll take some time
+ *  to do this. once completed we use a then which has two different paths if our function worked (resolve) or something went bad (reject).
  */
 promiseEx = new Promise((resolve, reject) => {
   // Inside function is called executor and is called immediately. 

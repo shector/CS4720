@@ -35,3 +35,15 @@ promiseEx.then( result => console.log(result).catch(
     error => console.log(error)
   )
 )
+
+/** export.js
+ * config = {
+ *  name: 'My Mobile Application
+ * }
+ * 
+ * import.js
+ * import configuration from './export'
+ * 
+ * This is a default export. We also can have named exports
+ * 
+ */

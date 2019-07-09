@@ -1,0 +1,25 @@
+{
+  "name": "din-din-snack",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "firebase": "5.9.4",
+    "i18n-js": "3.2.1",
+    "i18next": "14.0.1",
+    "react-i18next": "10.6.0",
+    "react-native-elements": "1.1.0",
+    "react-native-geocoding": "0.3.0",
+    "react-native-hr-component": "2.0.2",
+    "react-native-maps-directions": "1.6.0",
+    "react-native-modal-datetime-picker": "6.1.0",
+    "react-native-paper": "2.2.8",
+    "react-native-snap-carousel": "3.7.5",
+    "react-navigation": "3.5.1"
+  }
+}
